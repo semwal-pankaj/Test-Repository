@@ -63,7 +63,7 @@ def labelling(X_train,X_test):
 
 
 # Read Data from Data files
-data=pd.read_csv("/Users/pankajsemwal/Documents/My Courses/MITx Analystics Edge/melb_data.csv")
+data=pd.read_csv("/Users/pankajsemwal/Test Repository/melb_data.csv")
 
 # Define the X (input/independent) and Y (output/dependent) variables 
 X=data[["Rooms","Type","Distance","Bedroom2","Bathroom","Landsize","BuildingArea","YearBuilt","Lattitude","Longtitude"]]
