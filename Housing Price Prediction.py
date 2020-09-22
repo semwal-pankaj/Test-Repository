@@ -30,6 +30,10 @@ def Imputer(X_train,X_test):
     X_traincatimp.columns=X_train[categoricalcol].columns
     X_testcatimp.columns=X_test[categoricalcol].columns
     print('This is my change')
+
+    
+    print("found it using git fetch <remote url> and then git show")
+    print("However i need to got to the  github to find the branch name that is <feature1>. let me know if there is any command to find the name of branch created by collaboraters through command line only")
     
     #Imputation of numerical columns with mean value
     NumImputer=SimpleImputer(strategy="mean")
